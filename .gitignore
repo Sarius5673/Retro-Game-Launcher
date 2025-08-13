@@ -1,0 +1,50 @@
+# ===== C =====
+# Compilierte Objektdateien
+*.o
+*.obj
+
+# Compilierte Binärdateien
+*.exe
+*.out
+*.app
+
+# Debug- und Profiling-Dateien
+*.dSYM/
+*.stackdump
+
+# Build-Ordner
+/build/
+bin/
+Debug/
+Release/
+
+# ===== Python =====
+# Bytecode-Dateien
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtuelle Umgebungen
+env/
+venv/
+.venv/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# ===== VS Code =====
+.vscode/
+.history/
+
+# ===== Sonstiges =====
+# MacOS-Quatsch
+.DS_Store
+# Windows-Quatsch
+Thumbs.db
